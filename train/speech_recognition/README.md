@@ -1,8 +1,9 @@
 # Speech Training
 
-**DISCLAIMER: THESE FILES HAVE BEEN PROVIDED FROM THE TENSORFLOW REPOSITORY ON [GITHUB](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/micro/examples/micro_speech/train) **
+**DISCLAIMER: THESE FILES HAVE BEEN PROVIDED FROM THE TENSORFLOW REPOSITORY ON **
+**[GITHUB](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/micro/examples/micro_speech/train) **
 
-We are repurposing these files for our own personal use, all rights are reserved to the Tensorflow Team
+**We are repurposing these files for our own personal use, all rights are reserved to the Tensorflow Team**
 
 This example shows how to train a 20 kB model that can recognize 2 keywords,
 "yes" and "no", from speech data.
