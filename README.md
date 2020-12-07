@@ -67,7 +67,7 @@ conda activate tf1.15.2
 ```
 Install Tensorflow 1.15.2:
 ```
-conda install tensorflow=1.15.2
+pip3 install tensorflow==1.15.2
 ```
 
 
