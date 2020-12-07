@@ -38,6 +38,42 @@ It is okay if it does not find any pre installed packages
 pip3 install https://github.com/bitsy-ai/tensorflow-arm-bin/releases/download/v2.4.0-rc2/tensorflow-2.4.0rc2-cp37-none-linux_armv7l.whl
 ```
 ## Wake Word Model
+Set up Anaconda on your computer ---> 
+
+First, install Tensorflow 1.15.2 on your Raspberry Pi
+```
+sudo apt-get update
+sudo apt-get upgrade
+pip uninstall tensorflow
+pip3 uninstall tensorflow
+sudo apt-get install libhdf5-dev libc-ares-dev libeigen3-dev
+sudo apt-get install libatlas-base-dev libatlas3-base
+pip3 install h5py==2.10.0
+pip3 install -U --user six wheel mock
+pip3 install https://github.com/Qengineering/Tensorflow-Raspberry-Pi/raw/master/tensorflow-1.15.2-cp37-cp37m-linux_armv7l.whl
+```
+Now check what version of python is on your Pi
+```
+python3 --version
+```
+Keep note of this version
+
+Now on your computer, you want to create a Anaconda environment with that python version with the command:
+```
+conda create --name tf1.15.2 python=3.7.3 
+```
+Note: ```tf1.15.2``` is just a name I chose and ```3.7.3``` is the version of python on my Pi
+
+Now we need to install Tensorflow 1.15.2 in that environment
+
+Access the environment with 
+```
+conda activate tf1.15.2
+```
+Install Tensorflow 1.15.2:
+```
+conda install tensorflow=1.15.2
+```
 
 
 
