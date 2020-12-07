@@ -5,6 +5,8 @@
 
 **We are repurposing these files for our own personal use, all rights are reserved to the Tensorflow Team**
 
+If you want to look more into all of this, here is some [official documentation](https://github.com/tensorflow/docs/blob/master/site/en/r1/tutorials/sequences/audio_recognition.md)
+
 This example shows how to train a 20 kB model that can recognize 2 keywords,
 "yes" and "no", from speech data.
 
