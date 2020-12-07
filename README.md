@@ -13,7 +13,8 @@ This entire project will be written in Python, so it would be beneficial to have
 4. Components listed [Here](https://docs.google.com/spreadsheets/d/1M7MrT1gzgztbvuXfkKRB7sXJfgQoq0oRnmKZJjNunso/edit?usp=sharing)
 
 **The following programs that will be used**
-1. Google Colab
+1. Jupyter Notebook
+2. Anaconda
 3. Tensorflow
 4. Python3
 5. OpenCV
@@ -22,14 +23,16 @@ This entire project will be written in Python, so it would be beneficial to have
 
 **Computer:**
 1. Google Colab
-2. Tensorflow
+2. Tensorflow 1.15.2
+3. Anaconda
+4. Jupyter Notebook
 
 **Raspberry Pi Zero W:**
-1. Tensorflow
+1. Tensorflow 1.15.2
 2. OpenCV
 4. Python3
 
-## Wake Word Model
+## Wake Word Model (TODO: Move contents to initialsetup)
 Set up Anaconda on your computer ---> 
 
 First, install Tensorflow 1.15.2 on your Raspberry Pi
