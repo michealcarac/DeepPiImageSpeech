@@ -1,4 +1,4 @@
-# DeepPi
+# DeepPiImageSpeech
 Speech Recognition and Image Recognition Deep Learning on Raspberry Pi Zero W
 
 This entire project will be written in Python, so it would be beneficial to have a basic understanding of Python and have Python3 downloaded on your computer and Raspberry Pi
