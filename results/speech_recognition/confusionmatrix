@@ -1,0 +1,18 @@
+Confusion Matrix:
+
+ [[283   2   0   0   0   0   0]       _silence_
+ [  5 192   8  24  24  18  14]     _unknown_
+ [  3   3 404   3   0   5   1]          yes
+ [  2  11   3 382   1   2   4]          no
+ [  6   4   0   6 359  20   1]        on
+ [  2   6   3   4  13 369   5]        off
+ [  3   2   1   0   0   0 405]]        stop
+
+Final test accuracy = 92.0% (N=2603)
+Final test accuracy = 92.0% (N=2603)
+
+When we convert to TfLite -
+Float model is 1594796 bytes
+Float model accuracy is 92.201306% (Number of test samples=2603)
+Quantized model is 404176 bytes
+Quantized model accuracy is 92.201306% (Number of test samples=2603)
