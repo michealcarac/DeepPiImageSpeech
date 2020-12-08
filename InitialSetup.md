@@ -168,4 +168,5 @@ Python Module for the onboard Mic's
 ```
 sudo pip3 install pyaudio
 ```
-
+Installing Librosa 
+Guide [Here](https://stackoverflow.com/questions/46751140/running-librosa-numba-on-raspberry-pi-3/64517963#64517963)
