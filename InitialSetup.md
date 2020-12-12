@@ -170,9 +170,3 @@ sudo pip3 install pyaudio
 ```
 Installing Librosa 
 Guide [Here](https://stackoverflow.com/questions/46751140/running-librosa-numba-on-raspberry-pi-3/64517963#64517963)
-
-### Tensorflow 
-We want to install Tensorflow 1.15.2 so we use the following command on the Pi:
-```
-pip3 install tensorflow==1.15.2
-```
