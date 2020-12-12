@@ -32,7 +32,7 @@ This entire project will be written in Python, so it would be beneficial to have
 2. OpenCV2
 3. Python3
 
-## Wake Word Model (TODO: Move contents to initialsetup)
+## Wake Word Model
 Set up Anaconda on your computer ---> [Here](https://docs.anaconda.com/anaconda/install/)
 
 First, install Tensorflow 1.15.2 on your Raspberry Pi
