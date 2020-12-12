@@ -15,4 +15,4 @@ Image_test.py
 This goes on your Raspberry Pi along with the model generated with the script above. 
 
 ***Keep in mind that this script can either use VGG16 or MobileNetV2. These can be removed if you decide to just train. 
-But they can be loaded if the boolean for load is true ***
+But they can be loaded if the boolean for load is true***
