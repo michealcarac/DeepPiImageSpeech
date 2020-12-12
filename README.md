@@ -15,25 +15,25 @@ This entire project will be written in Python, so it would be beneficial to have
 **The following programs that will be used**
 1. Jupyter Notebook
 2. Anaconda
-3. Tensorflow
-4. Python3
-5. OpenCV
+3. Tensorflow (Match version with Pi)
+4. Python3 (Match version with Pi)
+5. OpenCV2
 
 **Now, only some of these programs will be needed on your Computer and some on your Raspberry Pi:**
 
 **Computer:**
-1. Google Colab
-2. Tensorflow 1.15.2
-3. Anaconda
+1. Tensorflow 1.15.2
+2. Anaconda
+3. Python
 4. Jupyter Notebook
 
-**Raspberry Pi Zero W:**
+**Raspberry Pi:**
 1. Tensorflow 1.15.2
-2. OpenCV
-4. Python3
+2. OpenCV2
+3. Python3
 
 ## Wake Word Model (TODO: Move contents to initialsetup)
-Set up Anaconda on your computer ---> 
+Set up Anaconda on your computer ---> [Here](https://docs.anaconda.com/anaconda/install/)
 
 First, install Tensorflow 1.15.2 on your Raspberry Pi
 ```
@@ -69,6 +69,15 @@ Install Tensorflow 1.15.2:
 ```
 pip3 install tensorflow==1.15.2
 ```
+If you want to train with gpu, install ```tensorflow-gpu==1.15.2```
+
+Install OpenCV in your environment with
+```
+pip3 install opencv-python
+```
+Do this on your Pi as well. 
+
+Now, you should be able to run our programs with no issues. The notebooks plus the Remove Files Script is for your Computer and the other python scripts are for the Raspberry Pi. We are using Googles Speech Dataset and VGG16 Dataset for Image Recognition which we transfer learned with our own images and classes. 
 
 
 
