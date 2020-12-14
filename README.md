@@ -9,7 +9,7 @@ This entire project will be written in Python, so it would be beneficial to have
 **For this project, you will need a few things**
 1. A computer to install some programs on
 2. A internet connection
-3. A way to create a MicroSD card for the Zero W with SSH or VNC albeit another Raspberry Pi, hooking up some peripherals to the Zero, or some other way.
+3. A way to create a MicroSD card for the Pi with SSH or VNC albeit another Raspberry Pi, hooking up some peripherals to the Pi, or some other way.
 4. Components listed [Here](https://docs.google.com/spreadsheets/d/1M7MrT1gzgztbvuXfkKRB7sXJfgQoq0oRnmKZJjNunso/edit?usp=sharing)
 
 **The following programs that will be used**
